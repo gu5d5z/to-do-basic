@@ -26,7 +26,7 @@ const handleSubmit = (e) => {
             value={valorDoInput}
             onChange={handleChange}
             />
-            <button type="submit">Adicionar</button>
+            <button className="anadir" type="submit">Adicionar</button>
           
         </form>
         
