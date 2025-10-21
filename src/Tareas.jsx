@@ -10,7 +10,7 @@ const handleChange = (e) => {
 
 const handleSubmit = (e) => {
     e.preventDefault()
-    if (valorDoInput == '') return
+    if (valorDoInput.trim() == '') return
     addTarea(valorDoInput)
     setValorDoInput('')
 

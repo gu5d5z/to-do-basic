@@ -1,30 +1,23 @@
-## map()
+## Descripción
+Este proyecto es una **To-Do List funcional** creada con React.  
+El objetivo principal del proyecto fue **internalizar los fundamentos de React**, incluyendo:
 
-passo a passo 
+- Manejo de estado con `useState`
+- Renderizado de listas dinámicas con `.map()`
+- Manejo de eventos y funciones en botones (`onClick`)
+- Componentización y buena práctica en la actualización de estado
 
-{} llaves
-users.map = users(variabel de estado que es un array que recibe la respuesta a la peticion de la API o sea que los usuarios estan aota en users) map() metodo para percorer arrays
+Permite:
+- Agregar nuevas tareas
+- Eliminar tareas específicas
+- Visualizar la lista de tareas en tiempo real
 
-{users.map(user => <li key {user.id}>{user.name}</li>)}
+El proyecto está publicado en **Netlify**, permitiendo acceso desde cualquier lugar.
 
-componentes
-variables
-fragment
-estilo en react
-props
-eventos
-useState
-condicionales y ternarios
-map
-className
-comunicación entre componentes
-envio de informacion desde child
-useEffect y fetch
+---
 
-como buildar una aplicación
-
-
-
-
-
-
+## Tecnologías utilizadas
+- React
+- JavaScript (ES6+)
+- HTML & CSS
+- Netlify (para deploy)
